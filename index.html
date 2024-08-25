@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      notNotion - Your Custom News Portal With Selected Categories And Updates!
+    </title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/letter-k.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="outer-wrap">
+        <div class="inner-wrap">
+          <section class="heading">
+            <p class="title">notNotion</p>
+            <p class="subtitle">
+              Your Custom News Portal With Selected Categories And Updates!
+            </p>
+          </section>
+          <section class="news">
+            <div class="category">
+              <span
+                class="active"
+                data-url="/everything?q=india&sortBy=popularity"
+                >IN (All)</span
+              >
+
+              <span data-url="/top-headlines?sources=the-times-of-india"
+                >TOI News</span
+              >
+              <span data-url="/everything?q=Cryptocurrency&sortBy=popularity"
+                >Cryptocurrency</span
+              >
+              <span data-url="/top-headlines?sources=techcrunch"
+                >Techcrunch</span
+              >
+            </div>
+            <div class="cards"></div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="apikey.js"></script>
+  </body>
+</html>
